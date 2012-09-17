@@ -1,5 +1,0 @@
-// ImageAnalyzer.h
-
-#pragma once
-
- 

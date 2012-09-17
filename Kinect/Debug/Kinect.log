@@ -1,0 +1,32 @@
+﻿Compilación iniciada a las 12/09/2012 05:36:28 p.m..
+     1>Proyecto "C:\Users\MTeragni\Documents\Visual Studio 2010\Projects\Kinect\Kinect\Kinect.vcxproj" en el nodo 2 (build destinos).
+     1>InitializeBuildStatus:
+         Aplicando tarea Touch a "Debug\Kinect.unsuccessfulbuild".
+       GenerateTargetFrameworkMonikerAttribute:
+       Se omitirá el destino "GenerateTargetFrameworkMonikerAttribute" porque todos los archivos de salida están actualizados respecto a los archivos de entrada.
+       ClCompile:
+         Todas las salidas están actualizadas.
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Kinect.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt Kinect.cpp /clr:nostdlib 
+         Kinect.cpp
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /analyze- /errorReport:prompt "C:\Users\MTeragni\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\app.res" app.rc 
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\MTeragni\Documents\Visual Studio 2010\Projects\Kinect\Debug\Kinect.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Kinect10.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Kinect.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\MTeragni\Documents\Visual Studio 2010\Projects\Kinect\Debug\Kinect.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /DLL Debug\app.res
+         Debug\AssemblyInfo.obj
+         Debug\Kinect.obj
+         Debug\Stdafx.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+            Creando biblioteca C:\Users\MTeragni\Documents\Visual Studio 2010\Projects\Kinect\Debug\Kinect.lib y objeto C:\Users\MTeragni\Documents\Visual Studio 2010\Projects\Kinect\Debug\Kinect.exp
+         Kinect.vcxproj -> C:\Users\MTeragni\Documents\Visual Studio 2010\Projects\Kinect\Debug\Kinect.dll
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\MTeragni\Documents\Visual Studio 2010\Projects\Kinect\Debug\Kinect.dll;#2" /manifest Debug\Kinect.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Se eliminará el archivo "Debug\Kinect.unsuccessfulbuild".
+         Aplicando tarea Touch a "Debug\Kinect.lastbuildstate".
+     1>Compilación del proyecto terminada "C:\Users\MTeragni\Documents\Visual Studio 2010\Projects\Kinect\Kinect\Kinect.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:06.20
