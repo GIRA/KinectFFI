@@ -1,0 +1,11 @@
+C:\Users\MTeragni\Desktop\ImageAnalyzer - for etoys 3\UI-ImageAnalyze\obj\x86\Debug\WindowsFormsApplication1.exe
+C:\Users\MTeragni\Desktop\ImageAnalyzer - for etoys 3\UI-ImageAnalyze\obj\x86\Debug\WindowsFormsApplication1.pdb
+C:\Users\MTeragni\Desktop\ImageAnalyzer - for etoys 3\UI-ImageAnalyze\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\MTeragni\Desktop\ImageAnalyzer - for etoys 3\UI-ImageAnalyze\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\MTeragni\Desktop\ImageAnalyzer - for etoys 3\UI-ImageAnalyze\bin\Debug\ImageAnalyzer.dll
+C:\Users\MTeragni\Desktop\ImageAnalyzer - for etoys 3\UI-ImageAnalyze\bin\Debug\ImageAnalyzer.pdb
+C:\Users\MTeragni\Desktop\ImageAnalyzer - for etoys 3\UI-ImageAnalyze\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\MTeragni\Desktop\ImageAnalyzer - for etoys 3\UI-ImageAnalyze\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\MTeragni\Desktop\ImageAnalyzer - for etoys 3\UI-ImageAnalyze\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\MTeragni\Desktop\ImageAnalyzer - for etoys 3\UI-ImageAnalyze\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\MTeragni\Desktop\ImageAnalyzer - for etoys 3\UI-ImageAnalyze\obj\x86\Debug\GenerateResource.write.1.tlog
