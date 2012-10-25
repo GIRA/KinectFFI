@@ -91,46 +91,63 @@ extern "C"
 
 
 
+	//__declspec(dllexport) NUI_SKELETON_DATA* getNextFrame()
+	//{
+	//	NUI_SKELETON_FRAME pSkeletonFrame;
+	//	 
+	//	memset(data, 0, sizeof(data));
+	//	HRESULT hr = NuiSkeletonGetNextFrame(30,&pSkeletonFrame);
+	//	int index=0;
+	//	int count=0;
+	//	if(SUCCEEDED(hr))
+	//	{
+	//		_current -> NuiTransformSmooth(&pSkeletonFrame,&DefaultParams);
+	//		for(int i = 0 ; i < 6 ; i++)
+	//		{
+	//			/*for each skeleton*/
+	//			NUI_SKELETON_DATA  sd = pSkeletonFrame.SkeletonData[i];
+	//			if(sd.eTrackingState !=0)
+	//			{
+	//				int a = sizeof(sd.dwTrackingID);
+	//				data[count]=sd;
+	//				count++;
+	//				
+	//			/*	*(address+index) = (float)(sd.dwTrackingID);
+	//				index++;
+	//				*(address+index) = (float)(sd.eTrackingState);
+	//		
+	//				index++;
+	//				for(int j=0;j<20;j++)
+	//				{
+	//					Vector4 position = sd.SkeletonPositions[j];
+	//					*(address+index) = position.x;
+	//					index++;
+	//					*(address+index) = position.y;
+	//					index++;
+	//					*(address+index) = position.z;
+	//					index++;
+	//					*(address+index) = position.w;
+	//					index++;
+	//				}*/
+	//			}
+	//		}
+	//	}
+	//	return data;
+	//}
+
+	
 	__declspec(dllexport) NUI_SKELETON_DATA* getNextFrame()
 	{
-		 NUI_SKELETON_FRAME pSkeletonFrame;
+		NUI_SKELETON_FRAME pSkeletonFrame;
 		 
-		 memset(data, 0, sizeof(data));
-		 HRESULT t = NuiSkeletonGetNextFrame(30,&pSkeletonFrame);
-		 int index=0;
-		 int count=0;
-		if(t == 0)
+		memset(data, 0, sizeof(data));
+		HRESULT hr = NuiSkeletonGetNextFrame(30,&pSkeletonFrame);
+		int index=0;
+		int count=0;
+		if(SUCCEEDED(hr))
 		{
-			_current ->NuiTransformSmooth(&pSkeletonFrame,&DefaultParams);
-			for(int i = 0 ;i <6 ; i++)
-			{
-				/*for each skeleton*/
-				NUI_SKELETON_DATA  sd = pSkeletonFrame.SkeletonData[i];
-				if(sd.eTrackingState !=0)
-				{
-					int a = sizeof(sd.dwTrackingID);
-					data[count]=sd;
-					count++;
-					
-				/*	*(address+index) = (float)(sd.dwTrackingID);
-					index++;
-					*(address+index) = (float)(sd.eTrackingState);
-			
-					index++;
-					for(int j=0;j<20;j++)
-					{
-						Vector4 position = sd.SkeletonPositions[j];
-						*(address+index) = position.x;
-						index++;
-						*(address+index) = position.y;
-						index++;
-						*(address+index) = position.z;
-						index++;
-						*(address+index) = position.w;
-						index++;
-					}*/
-				}
-			}
+			_current -> NuiTransformSmooth(&pSkeletonFrame,&DefaultParams);
+			return pSkeletonFrame.SkeletonData;
 		}
 		return data;
 	}
