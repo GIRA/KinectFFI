@@ -9,3 +9,14 @@ c:\users\mteragni\documents\visual studio 2010\Projects\Kinect\KinectTest\obj\x8
 c:\users\mteragni\documents\visual studio 2010\Projects\Kinect\KinectTest\bin\Debug\Kinect.dll
 c:\users\mteragni\documents\visual studio 2010\Projects\Kinect\KinectTest\bin\Debug\Kinect.pdb
 c:\users\mteragni\documents\visual studio 2010\Projects\Kinect\KinectTest\obj\x86\Debug\KinectTest.Form1.resources
+C:\Users\Richo\Documents\Visual Studio 2010\Projects\KinectFFI\KinectTest\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Richo\Documents\Visual Studio 2010\Projects\KinectFFI\KinectTest\obj\x86\Debug\KinectTest.Form1.resources
+C:\Users\Richo\Documents\Visual Studio 2010\Projects\KinectFFI\KinectTest\obj\x86\Debug\KinectTest.Properties.Resources.resources
+C:\Users\Richo\Documents\Visual Studio 2010\Projects\KinectFFI\KinectTest\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Richo\Documents\Visual Studio 2010\Projects\KinectFFI\KinectTest\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Richo\Documents\Visual Studio 2010\Projects\KinectFFI\KinectTest\bin\Debug\KinectTest.exe
+C:\Users\Richo\Documents\Visual Studio 2010\Projects\KinectFFI\KinectTest\bin\Debug\KinectTest.pdb
+C:\Users\Richo\Documents\Visual Studio 2010\Projects\KinectFFI\KinectTest\bin\Debug\Kinect.dll
+C:\Users\Richo\Documents\Visual Studio 2010\Projects\KinectFFI\KinectTest\bin\Debug\Kinect.pdb
+C:\Users\Richo\Documents\Visual Studio 2010\Projects\KinectFFI\KinectTest\obj\x86\Debug\KinectTest.exe
+C:\Users\Richo\Documents\Visual Studio 2010\Projects\KinectFFI\KinectTest\obj\x86\Debug\KinectTest.pdb
